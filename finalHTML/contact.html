@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Carciuma patriei</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link rel="shortcut icon" type="image/png" href="img/simple-house-logo.png"/>
+</head>
+<body> 
+
+	<div class="container">
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/wallpp.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Carciuma patriei</h1>
+								<h6 class="tm-site-description">mancare moldoveneasca</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Acasa</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">Despre noi</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active">Contactati-ne</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Contactati-ne</h2>
+				<p class="col-12 text-center">Sunteti mereu liberi sa lasati un mesaj in caz ca aveti nevoie de serviciile noastre sau daca sunteti in cautare de o vacansie</p>
+			</header>
+
+			<div class="tm-container-inner-2 tm-contact-section">
+				<div class="row">
+					<div class="col-md-6">
+						<form action="" method="POST" class="tm-contact-form" netlify> 
+							<!-- aici am adaugat netlify ca sa lucreze form-ul cu unul din site-urile hosting -->
+					        <div class="form-group">
+					          <input type="text" name="name" class="form-control" placeholder="Numele" required="" />
+					        </div>
+					        
+					        <div class="form-group">
+					          <input type="email" name="email" class="form-control" placeholder="Email-ul" required="" />
+					        </div>
+				
+					        <div class="form-group">
+					          <textarea rows="5" name="message" class="form-control" placeholder="Mesajul" required=""></textarea>
+					        </div>
+					
+					        <div class="form-group tm-d-flex">
+					          <button type="submit" class="tm-btn tm-btn-success tm-btn-right">
+					            Trimite
+					          </button>
+					        </div>
+						</form>
+					</div>
+					<div class="col-md-6">
+						<div class="tm-address-box">
+							<h4 class="tm-info-title tm-text-success">Adresa noastra</h4>
+							<address>
+								Chisinau<br>
+								Bd. Moscovei<br>
+								Str. Studentilor 8/3
+							</address>
+							<a href="tel:080-090-0110" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i>+373 99-99-99-99
+							</a>
+							<a href="" class="tm-contact-link">
+								<i class="fas fa-envelope tm-contact-icon"></i>info@carciuma_patriei.co
+							</a>
+							<div class="tm-contact-social">
+								<a href="https://fb.com" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+								<a href="#" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+								<a href="#" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+<!-- Pentru a alege locatia pe google maps
+	1. Accesam google maps
+	2. alegem locatia
+	3. apasam share si pe tab-ul "embed code"
+	4. Copy codul si pur si simplu inseram in div-ul dorit
+-->
+			<div class="tm-container-inner-2 tm-map-section">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.3513381733646!2d28.871286980382173!3d47.058425130074134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97ce10cf28533%3A0x55219c5e41a017ac!2zTGljZXVsIFRlb3JldGljIOKAnklvbiBDcmVhbmfEg-KAnQ!5e0!3m2!1sen!2s!4v1590442053604!5m2!1sen!2s" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-container-inner-2 tm-info-section">
+				<div class="row">
+					<div class="col-12 tm-faq">
+						<h2 class="text-center tm-section-title">Intrebari si raspunsuri </h2>
+						<p class="text-center">Aici puteti gasi raspunsurile la cele mai frecvente intrebari. In caz ca nu ati gasit raspunsul dorit, contactati-ne</p>
+						<div class="tm-accordion">
+							<button class="accordion">1. Aveti livrare? Care este zona?</button>
+							<div class="panel">
+							  <p>Avem livrare 24/7 cu zona activa in marimea suprafetei completye a municipiului Chisinau incluzand suburbiile acestuia</p>
+							</div>
+							
+							<button class="accordion">2. Cat costa livrarea?</button>
+							<div class="panel">
+							  <p>In zona orasului livrarea este de 30 lei iar daca suma comenzii este mai mare de 300lei, livrarea e gratuita</p>
+							</div>
+							
+							<button class="accordion">3. In cat timp ajunge livrarea?</button>
+							<div class="panel">
+							  <p>In dependenta de ora comenzii, daca e ora de varf va veni in maximum o ora</p>
+							</div>
+							
+							<button class="accordion">4. Care este graficul de lucru al livrarilor?</button>
+							<div class="panel">
+								<p>Va putem oferi livrari 24/7, indiferent din ce zone comandati, pretul livrarii ramane acelasi.</p>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2020 Cretu Igor 
+            
+            | Design: <a rel="nofollow" href="https://www.facebook.com/RukojopEtoPrizvanie">Cretu Igor</a></p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
